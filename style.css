@@ -1,0 +1,228 @@
+/*Defines the menu on the left*/
+.menu {
+		
+	color: black;
+	background: lightblue;
+
+/*Defines the font and text style of the button*/
+	text-align:left;
+	font-family: Arial;
+	font-size: 25px;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+	font-weight: 700;
+	text-indent: 15px;
+	vertical-align: middle;
+/*Defines the shadow of the buttons*/
+	-webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+	box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+
+/*Defines the corners of the buttons*/
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+
+/*Defines the place and appearance of the buttons*/
+	height: 40px;
+	margin-right:50px;
+	margin-top:30px;
+	margin-left: 10px;
+	padding-top: 10px;
+
+}
+/*Defines what happens when you hover over the menu*/
+.menu:hover {
+  border: 4px outset white;
+}
+/*Sets default value for all elements*/
+*{
+	padding: 0px;
+	margin : 0px;
+	border : 0px;
+}
+/*Defines the layout*/
+.gridlayout{
+	display : block;
+	width : 900px;
+	overflow : auto;
+	margin : 30px auto 0 auto;
+}
+/*Defines the header image*/
+.pageHeader{
+	background-color : lightblue;
+	text-align: center;
+	clear : none;
+	height : 150px;
+	width : 900px;
+	font-size:80px;
+	background-repeat: no-repeat;
+	text-indent: 120px;
+	padding-top: 50px;	
+	/*Gives the title a Shadow*/
+	text-shadow: 1px 1px 2px #474747, 5px 5px 0px rgba(38,16,10,0.20);
+	
+}
+/*Defines each of the header images*/
+#homeheader{
+	background-image: url("images/VictoriaParkCI_Logo1.jpg");
+}
+#interestsheader{
+	background-image: url("images/minecraft.jpg")
+}
+#bookheader{
+	background-image: url("images/bookshelf3.jpg")
+}
+#activityheader{
+	background-image: url("images/outdoor2.jpg")
+}
+#familyheader{
+	background-image: url("images/familyguy1.jpg")
+}
+/*Defines the panel on the left that allows you to switch HTMLs*/
+.pageLeftMenu{
+	background-color:transparent;
+	float : left;
+	clear : none;
+	width : 300px;
+}
+/*Defines the content panel of the website*/
+.pageContent{
+	background-color : lightyellow;
+	text-align: upper;
+
+	float : left;
+	clear : none;
+	height : 1200px;
+	width : 600px;
+	margin-top: 30px;
+}
+/*Defines the footer text*/
+.pageFooter{
+	background-color : transparent;
+	float : left;
+	clear : none;
+	height : 70px;
+	width : 900px;
+	text-align: right;
+	padding-top: 30px;
+
+}
+/*Defines the style of the descriptions panel*/
+.pageSummary{
+	background-color: white;
+	float:right;
+	clear : none;
+	height: 500px;
+	width : 600px;
+
+}
+
+/*Defines the title of each block*/
+.SummaryTitle {
+	color: black;
+	background: lightgrey;
+	font-family: Century;
+	font-size: 45px;
+	text-align: center;
+	width : 590px;
+	
+	margin-right:0px;
+	margin-left: 0px;
+	padding-top: 10px;
+	
+	border: 5px outset lightgrey;
+	height: 65px;
+}
+/*Defines how tall each section will be*/
+#hc{
+  height: 720px;
+}
+#h1{
+  height: 350px;
+}
+#h2{
+  height: 370px;
+}
+
+#ic{
+  height: 1040px;
+}
+#i1{
+  height: 350px;
+}
+#i2{
+  height: 340px;
+}
+#i3{
+	height: 350px;
+}
+
+
+#bc{
+  height: 800px;
+}
+#b1{
+	height: 350px;
+}
+#b2{
+	height: 450px;
+}
+#a1{
+	height: 350px;
+}
+#b1{
+	height: 350px;
+}
+#fc{
+	height: 700px;
+}
+#f1{
+	height: 350px;
+}
+#f2{
+	height: 350px;
+}
+
+
+
+.wrapper {
+  display: flex;
+}
+
+/*Main description of each block*/
+.maindesc{
+	white-space: pre;
+	font-family: Arial;
+	font-size: 12px;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	text-indent: 10px;
+	vertical-align: middle;
+	margin-left: 15px;
+	width:300px;
+	
+	flex: 0 0 65%;
+}
+/*Defines how the images are displayed*/
+.gallery {
+  margin: 5px;
+  border: 1px solid grey;
+  float: left;
+  width: 200px;
+  
+  flex: 1;
+}
+/*Defines what happens when you hover your mouse over the image*/
+.gallery:hover {
+  border: 2px solid darkgrey;
+}
+/*Defines the image*/
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+/*Defines the description of the image*/
+.desc {
+  padding: 5px;
+  text-align: center;
+}

@@ -1,0 +1,91 @@
+<!--Developer: Edward N. Finished Nov. 17, 2020
+School Project: Create a Website about your life-->
+<!--Defines Doctype-->
+<!DOCTYPE html>
+<html lang="en">
+<!--Links to css stylesheet and gives the page name-->
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>My Family</title>
+	<meta name="description" content="Write some words to describe your html page">
+</head>
+<body> 
+	
+	<!--Gives the title and gives text on the menu and links it to the other htmls-->
+	<div class="gridlayout">
+		<div class="pageHeader" id="familyheader">Family</div>
+		<div class="pageLeftMenu">
+			<div class="menu"><a style="text-decoration: none;" href="main.html">About Me</a></div>
+			<div class="menu"><a style="text-decoration: none;" href="interests.html">Interests</a></div>
+			<div class="menu"><a style="text-decoration: none;" href="books.html">Books</a></div>
+			<div class="menu"><a style="text-decoration: none;" href="activities.html">Activities</a></div>
+			<div class="menu"><a style="text-decoration: none;" href="family.html">Family</a></div>
+		</div>
+		<!--Gives an id to the home pages-->
+		<div class="pageContent" id="fc">
+			<div class="pageSummary" id="f1">
+				<!--Gives a title to the description-->
+				<div class="SummaryTitle"><p>Family Introduction</p></div>
+				<div class="wrapper">
+					<!--Gives the description a class-->
+					<div class="maindesc"><h2>
+<!--Description-->
+I am the older brother, in a family of
+four. It is my dad, mom, and little
+brother. We play a lot of games
+together, and we have a lot of
+fun. I also have my grandparents,
+who visit us frequently.</h2>
+
+					</div>
+					<!--Gives the image a class-->
+					<div class="gallery">
+					<!--Transports you to another page when you click the image-->
+					  <a target="_blank" href="images/familytree.jpg">
+						<!--Transports you to another page when you click the image-->
+						<img src="images/familytree.jpg" alt="Family Tree" width="300" height="200">
+					  </a>
+					  <!--Gives a description of the image-->
+					  <div class="desc">Family</div>
+					</div>		
+				</div>			
+			</div>
+			
+			<!--Loads the second id to the second block-->
+			<div class="pageSummary" id="f2">
+				<!--Gives a title for the second description-->
+				<div class="SummaryTitle"><p>Family Activities</p></div>
+				<div class="wrapper">
+					<!--Gives the description a class-->
+					<div class="maindesc"><h2>
+<!--Second Description-->
+We all infrequently play games
+together, go on walks, and
+ride bikes together. One of the
+games my brother and I play
+is chess on the computer.
+We will also occasionally play
+Monopoly, or any other board
+game together.</h2>
+
+					</div>
+					<!--Gives the image a class-->
+					<div class="gallery">
+					<!--Transports you to another page when you click the image-->
+					  <a target="_blank" href="images/monopoly.jpg">
+						<!--Displays the image-->
+						<img src="images/monopoly.jpg" alt="Monopoly" width="300" height="200">
+					  </a>
+					  <!--Displays the image-->
+					  <div class="desc">Monopoly</div>
+					</div>		
+				</div>		
+			</div>							
+		</div>			
+		<!--Footer-->
+		<div class="pageFooter">Copyright @2020.All rights reserved. Edward N
+		</div>
+	</div>
+</body>
+</html>

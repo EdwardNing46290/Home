@@ -1,0 +1,91 @@
+<!--Developer: Edward N. Finished Nov. 17, 2020
+School Project: Create a Website about your life-->
+<!--Defines Doctype-->
+<!DOCTYPE html>
+<html lang="en">
+<!--Links to css stylesheet and gives the page name-->
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>My Favourite Books</title>
+	<meta name="description" content="Write some words to describe your html page">
+</head>
+<body> 
+
+	<!--Gives the title and gives text on the menu and links it to the other htmls-->
+	<div class="gridlayout">
+		<div class="pageHeader" id="bookheader">BOOKS</div>
+		<div class="pageLeftMenu">
+			<div class="menu"><a style="text-decoration: none;" href="main.html">About Me</a></div>
+			<div class="menu"><a style="text-decoration: none;" href="interests.html">Interests</a></div>
+			<div class="menu"><a style="text-decoration: none;" href="books.html">Books</a></div>
+			<div class="menu"><a style="text-decoration: none;" href="activities.html">Activities</a></div>
+			<div class="menu"><a style="text-decoration: none;" href="family.html">Family</a></div>
+		</div>
+		<!--Gives an id to the home pages-->
+		<div class="pageContent" id="bc" >
+			<div class="pageSummary" id="b1">
+				<!--Gives a title to the description-->
+				<div class="SummaryTitle"><p>Books</p></div>
+				<div class="wrapper">				
+					<!--Gives the description a class-->
+					<div class="maindesc"><h2>
+<!--Description-->
+I enjoy reading a lot, and have since
+Grade 4. I have read a lot of books,
+and the genre I enjoy the most
+fiction. I don't really like nonfiction.
+Some notable book series' that I have
+read include Harry Potter and Percy
+Jackson.</h2>
+					</div>
+					<!--Gives the image a class-->
+					<div class="gallery">
+					<!--Transports you to another page when you click the image-->
+					  <a target="_blank" href="images/hogwarts2.png">
+						<!--Displays the image-->
+						<img src="images/hogwarts2.png" alt="Hogwarts" width="300" height="200">
+					  </a>
+					  <!--Gives a description of the image-->
+					  <div class="desc">Hogwarts Motto - Never Tickle a Sleeping Dragon</div>
+					</div>		
+				</div>			
+			</div>
+			
+			<!--Loads the second id to the second block-->
+			<div class="pageSummary" id="b2">
+				<!--Gives a title for the second description-->
+				<div class="SummaryTitle"><p>Harry Potter</p></div>
+				<div class="wrapper">
+					<!--Gives the description a class-->
+					<div class="maindesc"><h2>
+<!--Second Description-->
+Harry Potter is a series with seven
+books, and has made over 1 billion
+dollars snce it was published.
+I first read this series in Grade 4,
+and continue to occasionally read it
+from time to time. The story is
+centered around Harry, and his
+struggles against Lord
+Voldemort.</h2>
+					</div>
+					<!--Gives the image a class-->
+					<div class="gallery">
+					<!--Transports you to another page when you click the image-->
+					  <a target="_blank" href="images/harrypotter.jpg">
+						<!--Displays the image-->
+						<img src="images/harrypotter.jpg" alt="Harry Potter Book" width="300" height="200">
+					  </a>
+					  <!--Gives a description of the image-->
+					  <div class="desc">Harry Potter Book 1</div>
+					</div>		
+				</div>			
+			</div>			
+		</div>
+		<!--Footer-->
+		<div class="pageFooter">Copyright @2020.All rights reserved. Edward N
+		</div>
+	</div>
+</body>
+</html>

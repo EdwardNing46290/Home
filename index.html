@@ -1,0 +1,96 @@
+<!--Developer: Edward N. Finished Nov. 17, 2020
+School Project: Create a Website about your life-->
+<!--Defines Doctype-->
+<!DOCTYPE html>
+<html lang="en">
+<!--Links to css stylesheet and gives the page name-->
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Edward Home Page</title>
+	<meta name="description" content="Write some words to describe your html page">
+</head>
+<body> 
+
+	<!--Gives the title and gives text on the menu and links it to the other htmls-->
+	<div class="gridlayout">
+		<div class="pageHeader" id="homeheader">About Me</div>
+		<div class="pageLeftMenu">
+			<div class="menu"><a style="text-decoration: none;" href="main.html">About Me</a></div>
+			<div class="menu"><a style="text-decoration: none;" href="interests.html">Interests</a></div>
+			<div class="menu"><a style="text-decoration: none;" href="books.html">Books</a></div>
+			<div class="menu"><a style="text-decoration: none;" href="activities.html">Activities</a></div>
+			<div class="menu"><a style="text-decoration: none;" href="family.html">Family</a></div>
+		</div>
+		<!--Gives an id to the home pages-->
+		<div class="pageContent" id="hc" >
+			<div class="pageSummary" id="h1">
+			<!--Gives a title to the description-->
+				<div class="SummaryTitle"><p>A Brief Introduction</p></div>
+				<div class="wrapper">			
+					<!--Gives the description a class-->
+					<div class="maindesc"><h2>
+<!--Description-->
+I am 14 years old, and I am the 
+older brother in a family of four.
+I have been in four schools
+before Victoria Park. I attended
+the gifted program from Grade 4 to
+Grade 8, and attended many
+extracuriccular activities. I
+especially enjoyed playing chess.
+					</h2>
+					</div>
+					<!--Gives the image a class-->
+					<div class="gallery"  >
+					<!--Transports you to another page when you click the image-->
+					  <a target="_blank" href="images/oldphoto.jpg">
+						<!--Displays the image-->
+						<img src="images/oldphoto.jpg" alt="My Photo" width="300" height="200">
+					  </a>
+					  <!--Gives a description of the image-->
+					  <div class="desc">Photo of me when I was 11</div>
+					</div>		
+				</div>
+								
+			</div>
+			
+			<!--Loads the second id to the second block-->
+			<div class="pageSummary" id="h2">
+				<!--Gives a title for the second description-->
+				<div class="SummaryTitle"><p>Schools</p></div>
+				<div class="wrapper">
+					<!--Gives the description a class-->
+					<div class="maindesc"><h2>
+<!--Second Description-->
+I have been in four schools
+as of right now, not counting
+VPCI. My first school was Town
+Center Monetessori School, 
+where I learned until Grade
+2. In grade 3 I went to
+Rippleton Public School, then
+Denlow. After Denlow I went to
+St.Andrews MS.</h2>
+					</div>
+					<!--Gives the image a class-->
+					<div class="gallery"  >
+					  <a target="_blank" href="images/School.jpg">
+					  <!--Transports you to another page when you click the image-->
+						<img src="images/School.jpg" alt="School" width="300" height="200">
+						<!--Displays the image-->
+					  </a>
+					  <!--Gives a description of the image-->
+					  <div class="desc">School</div>
+					</div>		
+				</div>
+								
+			</div>			
+			
+		</div>
+		<!--Footer-->
+		<div class="pageFooter">Copyright @2020.All rights reserved. Edward N
+		</div>
+	</div>
+</body>
+</html>
